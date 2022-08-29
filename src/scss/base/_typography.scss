@@ -1,0 +1,38 @@
+@use '../abstracts' as a;
+
+/**
+ * Basic typography style for copy text
+ */
+
+.hero {
+    text-align: center;
+    width: min(600px, 100%);
+    margin: 0 auto 1rem;
+
+    &__title {
+        font-weight: 200;
+        color: a.$dark-blue;
+
+        &--highlight {
+            font-weight: 700;
+            display: block;
+        }
+    }
+
+    &__body {
+        font-size: 1.1rem;
+        color: a.$grayish-blue;
+    }
+}
+
+.card {
+    &__title {
+        color: a.$dark-blue;
+    }
+
+    &__body {
+        font-size: 1rem;
+        color: a.$grayish-blue;
+    }
+}
+

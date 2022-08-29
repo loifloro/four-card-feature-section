@@ -1,0 +1,76 @@
+@use '../abstracts' as a;
+
+.card {
+    padding: 1rem 2rem 2rem;
+    margin-top: 1.5rem;
+    // outline: black solid 1px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    // box-shadow: 0 3px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.2);
+    width: max(330px, 100%);
+    max-height: min(300px, 350px);
+    
+    &__title {
+        margin-bottom: 0;
+    }
+
+    picture{
+        margin-top: 2rem;
+        display: grid;
+        justify-content: end;
+    }
+
+    &.supervisor::before {
+        content: '';
+        background: a.$cyan;
+        // width: calc(100% - 8px);
+        width: 100%;
+        display: block;
+        border-top: 4px solid a.$cyan;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    &.team-builder::before {
+        content: '';
+        background: a.$red;
+        // width: calc(100% - 8px);
+        width: 100%;
+        display: block;
+        border-top: 4px solid a.$red;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    &.karma::before {
+        content: '';
+        background: a.$cyan;
+        // width: calc(100% - 8px);
+        width: 100%;
+        display: block;
+        border-top: 4px solid a.$orange;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    &.calculator::before {
+        content: '';
+        background: a.$cyan;
+        // width: calc(100% - 8px);
+        width: 100%;
+        display: block;
+        border-top: 4px solid a.$blue;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

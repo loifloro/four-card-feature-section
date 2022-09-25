@@ -6,7 +6,7 @@
     grid-gap: 30px;
 }
 
-@media (min-width: map-get(a.$breakpoints, 'medium')) {
+@media (min-width: map-get(a.$breakpoints, 'large')) {
     
     .cards {
         display: grid;

@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/loifloro/four-card-feature-section/)
+- Live Site URL: [Github Pages](https://loifloro.github.io/four-card-feature-section/dist/)
 
 ## My process
 
